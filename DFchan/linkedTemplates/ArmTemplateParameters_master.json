@@ -1,0 +1,102 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "DFchan"
+		},
+		"AzureBlobStorage2_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage3_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage4_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage5_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage6_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage7_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"LinkedService_rest1_password": {
+			"value": ""
+		},
+		"LinkedserviceChandru_connectionString": {
+			"value": ""
+		},
+		"Snowflake1_password": {
+			"value": ""
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"SqlServer2needed_password": {
+			"value": ""
+		},
+		"assesment_q1_ls1_csv_container_connectionString": {
+			"value": ""
+		},
+		"ques1_linkedservice_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage1_sasUri": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "chandru.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "DB1"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "chandru"
+		},
+		"LinkedService_rest1_properties_typeProperties_url": {
+			"value": "https://jsonplaceholder.typicode.com/"
+		},
+		"LinkedService_rest1_properties_typeProperties_userName": {
+			"value": "chandru"
+		},
+		"Snowflake1_properties_typeProperties_database": {
+			"value": "NEWDB"
+		},
+		"Snowflake1_properties_typeProperties_role": {
+			"value": "ACCOUNTADMIN"
+		},
+		"Snowflake1_properties_typeProperties_host": {
+			"value": "LLGSNOX-MQ85624.snowflakecomputing.com"
+		},
+		"SqlServer1_properties_typeProperties_server": {
+			"value": "chandru.database.windows.net"
+		},
+		"SqlServer1_properties_typeProperties_database": {
+			"value": "DB1"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "chandru"
+		},
+		"SqlServer2needed_properties_typeProperties_server": {
+			"value": "JM-DKT-013"
+		},
+		"SqlServer2needed_properties_typeProperties_database": {
+			"value": "DataEngDB"
+		},
+		"SqlServer2needed_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
