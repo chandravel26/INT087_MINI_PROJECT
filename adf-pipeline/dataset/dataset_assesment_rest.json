@@ -1,0 +1,19 @@
+{
+	"name": "dataset_assesment_rest",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ques1_linkedservice",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "assesment-rest-container"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,17 @@
+{
+	"name": "assesment_q1_ds_to_sql_db",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "prepSchema",
+			"table": "ModifiedDays"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
